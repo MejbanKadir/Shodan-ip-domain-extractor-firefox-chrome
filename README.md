@@ -38,8 +38,7 @@ A browser extension that extracts IP addresses and domain names from Shodan sear
 
 ### Permanent Installation
 
-1. Pack the extension into a ZIP file (excluding README.md)
-2. Submit to respective browser stores:
+1 (coming soon, not available right now)
    - [Mozilla Add-ons](https://addons.mozilla.org/) (Firefox)
    - [Chrome Web Store](https://chrome.google.com/webstore) (Chrome)
    - [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons) (Edge)
