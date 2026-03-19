@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Shodan IP/Domain Extractor",
+  "version": "1.0.0",
+  "description": "Extract IP addresses and domain names from Shodan search results and export to text files",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon.svg",
+      "96": "icons/icon.svg"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.shodan.io/*",
+    "*://*.shodan.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{c0c0c0c0-c0c0-c0c0-c0c0-c0c0c0c0c0c0}",
+      "strict_max_version": "120.*",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}
