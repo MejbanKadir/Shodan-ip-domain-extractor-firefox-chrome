@@ -32,7 +32,7 @@
     return { ips: ips, domains: domains };
   }
 
-  // Listen for messages from popup
+  
   browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
     if (message.action === 'extract') {
       const data = extractData();
