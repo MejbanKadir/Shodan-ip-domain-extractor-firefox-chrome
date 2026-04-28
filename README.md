@@ -39,9 +39,8 @@ A browser extension that extracts IP addresses and domain names from Shodan sear
 ### Permanent Installation
 
 1 (coming soon, not available right now)
-   - [Mozilla Add-ons](https://addons.mozilla.org/) (Firefox)
-   - [Chrome Web Store](https://chrome.google.com/webstore) (Chrome)
-   - [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons) (Edge)
+   - [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/shodan-ip-domain-extractor/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)  (Firefox)
+  
 
 ## Usage
 
